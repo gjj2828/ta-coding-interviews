@@ -25,10 +25,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Find.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="ITest.cs" />
     <Compile Include="TestBase.cs" />
+    <Compile Include="Solution\Find.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Solution\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
