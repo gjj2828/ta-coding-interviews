@@ -5,12 +5,13 @@ class MainClass
     public static void Main(string[] args)
     {
         Test<Find.Test>();
+        Test<replaceSpace.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
     {
         string taskName = "Test " + typeof(T).Namespace;
-        Console.WriteLine("Begin " + taskName);
+        Console.WriteLine("**** Begin {0} ****", taskName);
         T t = new T();
         if(t.Run())
         {
@@ -20,6 +21,6 @@ class MainClass
         {
             Console.WriteLine(taskName + " Fail");
         }
-        Console.WriteLine("End " + taskName);
+        Console.WriteLine("**** End {0} ****", taskName);
     }
 }

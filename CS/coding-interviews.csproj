@@ -29,6 +29,7 @@
     <Compile Include="ITest.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="Solution\Find.cs" />
+    <Compile Include="Solution\replaceSpace.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
