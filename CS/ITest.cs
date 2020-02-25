@@ -1,0 +1,4 @@
+﻿interface ITest
+{
+    bool Run();
+}

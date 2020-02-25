@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coding-interviews", "coding-interviews.csproj", "{A7ED2E28-7321-416A-BF0A-A984B181F28A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7ED2E28-7321-416A-BF0A-A984B181F28A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{A7ED2E28-7321-416A-BF0A-A984B181F28A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{A7ED2E28-7321-416A-BF0A-A984B181F28A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{A7ED2E28-7321-416A-BF0A-A984B181F28A}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
