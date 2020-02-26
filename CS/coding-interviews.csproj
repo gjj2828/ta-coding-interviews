@@ -36,6 +36,7 @@
     <Compile Include="Solution\minNumberInRotateArray.cs" />
     <Compile Include="Solution\Fibonacci.cs" />
     <Compile Include="Solution\jumpFloor.cs" />
+    <Compile Include="Solution\jumpFloorII.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

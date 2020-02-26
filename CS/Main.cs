@@ -12,6 +12,7 @@ class MainClass
         Test<minNumberInRotateArray.Test>();
         Test<Fibonacci.Test>();
         Test<jumpFloor.Test>();
+        Test<jumpFloorII.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
