@@ -31,6 +31,7 @@
     <Compile Include="Solution\Find.cs" />
     <Compile Include="Solution\replaceSpace.cs" />
     <Compile Include="Solution\printListFromTailToHead.cs" />
+    <Compile Include="Solution\reConstructBinaryTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

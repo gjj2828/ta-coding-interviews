@@ -7,6 +7,7 @@ class MainClass
         Test<Find.Test>();
         Test<replaceSpace.Test>();
         Test<printListFromTailToHead.Test>();
+        Test<reConstructBinaryTree.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
