@@ -21,9 +21,9 @@ namespace minNumberInRotateArray
             if (rotateArray[center] > rotateArray[end])
                 return minNumberInRotateArray(rotateArray, center + 1, end);
             if (rotateArray[center] < rotateArray[begin])
-                return minNumberInRotateArray(rotateArray, begin, center);
-            return Math.Min(minNumberInRotateArray(rotateArray, begin, center)
-                , minNumberInRotateArray(rotateArray, center + 1, end));
+                return minNumberInRotateArray(rotateArray, begin + 1, center);
+            return Math.Min(minNumberInRotateArray(rotateArray, begin + 1, center - 1)
+                , minNumberInRotateArray(rotateArray, center + 1, end - 1));
         }
     }
 
