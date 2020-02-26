@@ -35,6 +35,7 @@
     <Compile Include="Solution\push_pop.cs" />
     <Compile Include="Solution\minNumberInRotateArray.cs" />
     <Compile Include="Solution\Fibonacci.cs" />
+    <Compile Include="Solution\jumpFloor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
