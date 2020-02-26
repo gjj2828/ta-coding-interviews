@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 abstract class TestBase: ITest
 {
@@ -15,5 +16,14 @@ abstract class TestBase: ITest
             }
             Console.WriteLine();
         }
+    }
+
+    protected void Print(List<int> l)
+    {
+        foreach(int i in l)
+        {
+            Console.Write("{0}\t", i);
+        }
+        Console.WriteLine();
     }
 }
