@@ -5,26 +5,26 @@ namespace Fibonacci
 {
     class Solution
     {
-        public int Fibonacci(int n)
-        {
-            // write code here
-            if (n < 2) return n;
-            return Fibonacci(n - 2) + Fibonacci(n - 1);
-        }
-
         //public int Fibonacci(int n)
         //{
         //    // write code here
         //    if (n < 2) return n;
-        //    int[] f = new int[n];
-        //    f[0] = 1;
-        //    f[1] = 1;
-        //    for (int i = 2; i < n; i++)
-        //    {
-        //        f[i] = f[i - 2] + f[i - 1];
-        //    }
-        //    return f[n - 1];
+        //    return Fibonacci(n - 2) + Fibonacci(n - 1);
         //}
+
+        public int Fibonacci(int n)
+        {
+            // write code here
+            if (n < 2) return n;
+            int[] f = new int[n];
+            f[0] = 1;
+            f[1] = 1;
+            for (int i = 2; i < n; i++)
+            {
+                f[i] = f[i - 2] + f[i - 1];
+            }
+            return f[n - 1];
+        }
     }
 
     class Test: TestBase
