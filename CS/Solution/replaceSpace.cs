@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 
+// 替换空格
 namespace replaceSpace
 {
     class Solution
