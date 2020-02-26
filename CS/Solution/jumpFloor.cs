@@ -18,7 +18,7 @@ namespace jumpFloor
         public override bool Run()
         {
             Solution s = new Solution();
-            for(int i = 0; i < 10; i++)
+            for(int i = 1; i < 10; i++)
             {
                 Console.WriteLine("{0}: {1}", i, s.jumpFloor(i));
             }
