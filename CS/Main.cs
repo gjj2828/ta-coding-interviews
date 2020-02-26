@@ -8,6 +8,7 @@ class MainClass
         Test<replaceSpace.Test>();
         Test<printListFromTailToHead.Test>();
         Test<reConstructBinaryTree.Test>();
+        Test<push_pop.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

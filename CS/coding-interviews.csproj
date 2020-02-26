@@ -32,6 +32,7 @@
     <Compile Include="Solution\replaceSpace.cs" />
     <Compile Include="Solution\printListFromTailToHead.cs" />
     <Compile Include="Solution\reConstructBinaryTree.cs" />
+    <Compile Include="Solution\push_pop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
