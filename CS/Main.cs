@@ -10,6 +10,7 @@ class MainClass
         Test<reConstructBinaryTree.Test>();
         Test<push_pop.Test>();
         Test<minNumberInRotateArray.Test>();
+        Test<Fibonacci.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

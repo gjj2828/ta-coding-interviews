@@ -34,6 +34,7 @@
     <Compile Include="Solution\reConstructBinaryTree.cs" />
     <Compile Include="Solution\push_pop.cs" />
     <Compile Include="Solution\minNumberInRotateArray.cs" />
+    <Compile Include="Solution\Fibonacci.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
