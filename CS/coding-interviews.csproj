@@ -37,6 +37,7 @@
     <Compile Include="Solution\Fibonacci.cs" />
     <Compile Include="Solution\jumpFloor.cs" />
     <Compile Include="Solution\jumpFloorII.cs" />
+    <Compile Include="Solution\rectCover.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

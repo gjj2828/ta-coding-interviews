@@ -13,6 +13,7 @@ class MainClass
         Test<Fibonacci.Test>();
         Test<jumpFloor.Test>();
         Test<jumpFloorII.Test>();
+        Test<rectCover.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
