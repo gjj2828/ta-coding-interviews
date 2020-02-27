@@ -39,6 +39,7 @@
     <Compile Include="Solution\jumpFloorII.cs" />
     <Compile Include="Solution\rectCover.cs" />
     <Compile Include="Solution\NumberOf1.cs" />
+    <Compile Include="Solution\Power.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
