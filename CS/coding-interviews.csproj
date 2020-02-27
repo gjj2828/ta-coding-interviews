@@ -41,6 +41,7 @@
     <Compile Include="Solution\NumberOf1.cs" />
     <Compile Include="Solution\Power.cs" />
     <Compile Include="Solution\reOrderArray.cs" />
+    <Compile Include="Solution\FindKthToTail.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

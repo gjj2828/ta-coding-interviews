@@ -17,6 +17,7 @@ class MainClass
         Test<NumberOf1.Test>();
         Test<Power.Test>();
         Test<reOrderArray.Test>();
+        Test<FindKthToTail.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
