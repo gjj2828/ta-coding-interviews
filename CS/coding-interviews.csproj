@@ -40,6 +40,7 @@
     <Compile Include="Solution\rectCover.cs" />
     <Compile Include="Solution\NumberOf1.cs" />
     <Compile Include="Solution\Power.cs" />
+    <Compile Include="Solution\reOrderArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

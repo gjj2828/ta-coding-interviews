@@ -16,6 +16,7 @@ class MainClass
         Test<rectCover.Test>();
         Test<NumberOf1.Test>();
         Test<Power.Test>();
+        Test<reOrderArray.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
