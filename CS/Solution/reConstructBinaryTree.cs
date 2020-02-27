@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 重建二叉树
+// 树 重建二叉树
 namespace reConstructBinaryTree
 {
     public class TreeNode

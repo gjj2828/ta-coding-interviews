@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-// 用两个栈实现队列
+// 队列 栈 用两个栈实现队列
 namespace push_pop
 {
     class Solution

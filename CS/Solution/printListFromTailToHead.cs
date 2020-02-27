@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-// 从尾到头打印链表
+// 链表 从尾到头打印链表
 namespace printListFromTailToHead
 {
     public class ListNode

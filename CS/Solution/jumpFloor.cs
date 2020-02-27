@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 跳台阶
+// 递归 跳台阶
 namespace jumpFloor
 {
     class Solution

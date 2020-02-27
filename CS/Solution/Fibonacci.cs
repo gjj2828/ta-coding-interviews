@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 斐波那契数列
+// 递归 斐波那契数列
 namespace Fibonacci
 {
     class Solution

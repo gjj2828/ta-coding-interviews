@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 旋转数组的最小数字
+// 查找 旋转数组的最小数字
 namespace minNumberInRotateArray
 {
     class Solution

@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 变态跳台阶
+// 贪心 变态跳台阶
 namespace jumpFloorII
 {
     class Solution
