@@ -14,6 +14,7 @@ class MainClass
         Test<jumpFloor.Test>();
         Test<jumpFloorII.Test>();
         Test<rectCover.Test>();
+        Test<NumberOf1.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
