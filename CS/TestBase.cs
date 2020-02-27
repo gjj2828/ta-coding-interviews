@@ -18,7 +18,7 @@ abstract class TestBase: ITest
         }
     }
 
-    protected void Print(List<int> l)
+    protected void Print(IEnumerable<int> l)
     {
         foreach(int i in l)
         {
