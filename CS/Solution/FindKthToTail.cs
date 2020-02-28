@@ -3,6 +3,7 @@
 // 链表 链表中倒数第k个结点
 namespace FindKthToTail
 {
+    /*
     public class ListNode
     {
         public int val;
@@ -11,7 +12,7 @@ namespace FindKthToTail
         {
             val = x;
         }
-    }
+    }*/
     class Solution
     {
         public ListNode FindKthToTail(ListNode head, int k)

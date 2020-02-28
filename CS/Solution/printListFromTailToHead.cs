@@ -4,6 +4,7 @@ using System.Collections.Generic;
 // 链表 从尾到头打印链表
 namespace printListFromTailToHead
 {
+    /*
     public class ListNode
     {
         public int val;
@@ -12,7 +13,7 @@ namespace printListFromTailToHead
         {
             val = x;
         }
-    }
+    }*/
 
     class Solution
     {

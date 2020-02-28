@@ -19,6 +19,7 @@ class MainClass
         Test<reOrderArray.Test>();
         Test<FindKthToTail.Test>();
         Test<ReverseList.Test>();
+        Test<Merge.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

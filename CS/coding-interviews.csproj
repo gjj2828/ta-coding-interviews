@@ -43,6 +43,8 @@
     <Compile Include="Solution\reOrderArray.cs" />
     <Compile Include="Solution\FindKthToTail.cs" />
     <Compile Include="Solution\ReverseList.cs" />
+    <Compile Include="Solution\Merge.cs" />
+    <Compile Include="ListNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

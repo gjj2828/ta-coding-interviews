@@ -3,6 +3,7 @@
 // 链表 反转链表
 namespace ReverseList
 {
+    /*
     public class ListNode
     {
         public int val;
@@ -11,7 +12,7 @@ namespace ReverseList
         {
             val = x;
         }
-    }
+    }*/
     class Solution
     {
         public ListNode ReverseList(ListNode pHead)
@@ -42,17 +43,6 @@ namespace ReverseList
                 if (!Check(s, i)) return false;
             }
             return true;
-        }
-
-        private void Print(ListNode head)
-        {
-            ListNode p = head;
-            while(p != null)
-            {
-                Console.Write("{0}\t", p.val);
-                p = p.next;
-            }
-            Console.WriteLine();
         }
 
         private bool Check(Solution s, int len)

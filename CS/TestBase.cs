@@ -26,4 +26,28 @@ abstract class TestBase: ITest
         }
         Console.WriteLine();
     }
+
+    protected void Print(ListNode head)
+    {
+        ListNode p = head;
+        while (p != null)
+        {
+            Console.Write("{0}\t", p.val);
+            p = p.next;
+        }
+        Console.WriteLine();
+    }
+
+    protected ListNode CreateList(int[] l)
+    {
+        if (l == null || l.Length <= 0) return null;
+        ListNode head = new ListNode(l[0]);
+        ListNode p = head;
+        for(int i = 1; i < l.Length; i++)
+        {
+            p.next = new ListNode(l[i]);
+            p = p.next;
+        }
+        return head;
+    }
 }
