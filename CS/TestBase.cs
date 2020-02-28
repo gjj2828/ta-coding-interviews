@@ -76,4 +76,48 @@ abstract class TestBase: ITest
         nodes[5].left = nodes[7];
         return nodes[0];
     }
+
+    protected TreeNode reConstructBinaryTree(int[] pre, int[] tin)
+    {
+        // write code here
+        if (pre.Length <= 0) return null;
+        if (pre.Length != tin.Length) return null;
+        int val = pre[0];
+        int index = -1;
+        for (int i = 0; i < tin.Length; i++)
+        {
+            if (tin[i] == val)
+            {
+                index = i;
+                break;
+            }
+        }
+        if (index < 0) return null;
+        TreeNode node = new TreeNode(val);
+        int lcount = index;
+        int rcount = tin.Length - index - 1;
+        if (lcount > 0)
+        {
+            //ArraySegment<int> lpre = new ArraySegment<int>(pre, 1, lcount);
+            //ArraySegment<int> ltin = new ArraySegment<int>(tin, 0, lcount);
+            //node.left = reConstructBinaryTree(lpre.Array, ltin.Array);
+            int[] lpre = new int[lcount];
+            int[] ltin = new int[lcount];
+            Array.Copy(pre, 1, lpre, 0, lcount);
+            Array.Copy(tin, 0, ltin, 0, lcount);
+            node.left = reConstructBinaryTree(lpre, ltin);
+        }
+        if (rcount > 0)
+        {
+            //ArraySegment<int> rpre = new ArraySegment<int>(pre, lcount + 1, rcount);
+            //ArraySegment<int> rtin = new ArraySegment<int>(tin, index + 1, rcount);
+            //node.right = reConstructBinaryTree(rpre.Array, rtin.Array);
+            int[] rpre = new int[rcount];
+            int[] rtin = new int[rcount];
+            Array.Copy(pre, lcount + 1, rpre, 0, rcount);
+            Array.Copy(tin, index + 1, rtin, 0, rcount);
+            node.right = reConstructBinaryTree(rpre, rtin);
+        }
+        return node;
+    }
 }

@@ -21,6 +21,7 @@ class MainClass
         Test<ReverseList.Test>();
         Test<Merge.Test>();
         Test<HasSubtree.Test>();
+        Test<Mirror.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
