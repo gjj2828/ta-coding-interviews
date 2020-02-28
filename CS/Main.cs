@@ -24,6 +24,7 @@ class MainClass
         Test<Mirror.Test>();
         Test<printMatrix.Test>();
         Test<push_pop_top_min.Test>();
+        Test<IsPopOrder.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

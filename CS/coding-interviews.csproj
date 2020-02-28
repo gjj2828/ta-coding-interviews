@@ -49,6 +49,7 @@
     <Compile Include="Solution\Mirror.cs" />
     <Compile Include="Solution\printMatrix.cs" />
     <Compile Include="Solution\push_pop_top_min.cs" />
+    <Compile Include="Solution\IsPopOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
