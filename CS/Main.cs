@@ -23,6 +23,7 @@ class MainClass
         Test<HasSubtree.Test>();
         Test<Mirror.Test>();
         Test<printMatrix.Test>();
+        Test<push_pop_top_min.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

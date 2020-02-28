@@ -48,6 +48,7 @@
     <Compile Include="Solution\HasSubtree.cs" />
     <Compile Include="Solution\Mirror.cs" />
     <Compile Include="Solution\printMatrix.cs" />
+    <Compile Include="Solution\push_pop_top_min.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
