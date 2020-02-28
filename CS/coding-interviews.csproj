@@ -47,6 +47,7 @@
     <Compile Include="Common.cs" />
     <Compile Include="Solution\HasSubtree.cs" />
     <Compile Include="Solution\Mirror.cs" />
+    <Compile Include="Solution\printMatrix.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

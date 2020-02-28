@@ -22,6 +22,7 @@ class MainClass
         Test<Merge.Test>();
         Test<HasSubtree.Test>();
         Test<Mirror.Test>();
+        Test<printMatrix.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

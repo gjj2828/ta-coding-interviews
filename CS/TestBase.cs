@@ -120,4 +120,34 @@ abstract class TestBase: ITest
         }
         return node;
     }
+
+    protected int[][] CreateMatrix(int[] list, int col)
+    {
+        if (list == null || list.Length <= 0 || col <= 0 || list.Length % col != 0)
+            return null;
+        int row = list.Length / col;
+        int[][] matrix = new int[row][];
+        for(int i = 0; i < row; i++)
+        {
+            matrix[i] = new int[col];
+            for(int j = 0; j < col; j++)
+            {
+                matrix[i][j] = list[i * col + j];
+            }
+        }
+        return matrix;
+    }
+
+    protected bool IsEqual(int[] l1, int[] l2)
+    {
+        if (l1 == null && l2 == null) return true;
+        if (l1 == null || l2 == null) return false;
+        if (l1.Length != l2.Length) return false;
+        int len = Math.Min(l1.Length, l2.Length);
+        for(int i = 0; i < len; i++)
+        {
+            if (l1[i] != l2[i]) return false;
+        }
+        return true;
+    }
 }
