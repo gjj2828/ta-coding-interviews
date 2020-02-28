@@ -50,4 +50,30 @@ abstract class TestBase: ITest
         }
         return head;
     }
+
+    protected bool IsEqual(TreeNode n1, TreeNode n2)
+    {
+        if (n1 == null && n2 == null) return true;
+        if (n1 == null && n2 != null || n1 != null && n2 == null) return false;
+        if (n1.val != n2.val) return false;
+        return IsEqual(n1.left, n2.left) && IsEqual(n1.right, n2.right);
+    }
+
+    protected TreeNode CreateTreeSample()
+    {
+        int num = 8;
+        TreeNode[] nodes = new TreeNode[8];
+        for (int i = 0; i < num; i++)
+        {
+            nodes[i] = new TreeNode(i + 1);
+        }
+        nodes[0].left = nodes[1];
+        nodes[0].right = nodes[2];
+        nodes[1].left = nodes[3];
+        nodes[2].left = nodes[4];
+        nodes[2].right = nodes[5];
+        nodes[3].right = nodes[6];
+        nodes[5].left = nodes[7];
+        return nodes[0];
+    }
 }

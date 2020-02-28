@@ -44,7 +44,8 @@
     <Compile Include="Solution\FindKthToTail.cs" />
     <Compile Include="Solution\ReverseList.cs" />
     <Compile Include="Solution\Merge.cs" />
-    <Compile Include="ListNode.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Solution\HasSubtree.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

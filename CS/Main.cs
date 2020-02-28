@@ -20,6 +20,7 @@ class MainClass
         Test<FindKthToTail.Test>();
         Test<ReverseList.Test>();
         Test<Merge.Test>();
+        Test<HasSubtree.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

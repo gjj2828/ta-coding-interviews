@@ -3,6 +3,7 @@
 // 树 重建二叉树
 namespace reConstructBinaryTree
 {
+    /*
     public class TreeNode
     {
         public int val;
@@ -12,7 +13,7 @@ namespace reConstructBinaryTree
         {
             val = x;
         }
-    }
+    }*/
     class Solution
     {
         //public TreeNode reConstructBinaryTree(int[] pre, int[] tin)
@@ -87,30 +88,10 @@ namespace reConstructBinaryTree
         public override bool Run()
         {
             Solution s = new Solution();
-            int num = 8;
-            TreeNode[] nodes = new TreeNode[8];
-            for(int i = 0; i < num; i++)
-            {
-                nodes[i] = new TreeNode(i + 1);
-            }
-            nodes[0].left = nodes[1];
-            nodes[0].right = nodes[2];
-            nodes[1].left = nodes[3];
-            nodes[2].left = nodes[4];
-            nodes[2].right = nodes[5];
-            nodes[3].right = nodes[6];
-            nodes[5].left = nodes[7];
+            TreeNode root = CreateTreeSample();
             int[] pre = new int[] { 1, 2, 4, 7, 3, 5, 6, 8 };
             int[] tin = new int[] { 4, 7, 2, 1, 5, 3, 8, 6 };
-            return IsEqual(s.reConstructBinaryTree(pre, tin), nodes[0]);
-        }
-
-        private bool IsEqual(TreeNode n1, TreeNode n2)
-        {
-            if (n1 == null && n2 == null) return true;
-            if (n1 == null && n2 != null || n1 != null && n2 == null) return false;
-            if (n1.val != n2.val) return false;
-            return IsEqual(n1.left, n2.left) && IsEqual(n1.right, n2.right);
+            return IsEqual(s.reConstructBinaryTree(pre, tin), root);
         }
     }
 }
