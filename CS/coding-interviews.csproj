@@ -51,6 +51,7 @@
     <Compile Include="Solution\push_pop_top_min.cs" />
     <Compile Include="Solution\IsPopOrder.cs" />
     <Compile Include="Solution\PrintFromTopToBottom.cs" />
+    <Compile Include="Solution\VerifySquenceOfBST.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

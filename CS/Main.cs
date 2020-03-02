@@ -26,6 +26,7 @@ class MainClass
         Test<push_pop_top_min.Test>();
         Test<IsPopOrder.Test>();
         Test<PrintFromTopToBottom.Test>();
+        Test<VerifySquenceOfBST.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
