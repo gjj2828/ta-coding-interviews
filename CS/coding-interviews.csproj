@@ -52,6 +52,7 @@
     <Compile Include="Solution\IsPopOrder.cs" />
     <Compile Include="Solution\PrintFromTopToBottom.cs" />
     <Compile Include="Solution\VerifySquenceOfBST.cs" />
+    <Compile Include="Solution\FindPath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

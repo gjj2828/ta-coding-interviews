@@ -27,6 +27,7 @@ class MainClass
         Test<IsPopOrder.Test>();
         Test<PrintFromTopToBottom.Test>();
         Test<VerifySquenceOfBST.Test>();
+        Test<FindPath.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
