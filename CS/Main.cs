@@ -28,6 +28,7 @@ class MainClass
         Test<PrintFromTopToBottom.Test>();
         Test<VerifySquenceOfBST.Test>();
         Test<FindPath.Test>();
+        Test<Clone.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

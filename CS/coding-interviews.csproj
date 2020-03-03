@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>codinginterviews</RootNamespace>
     <AssemblyName>coding-interviews</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,6 +53,7 @@
     <Compile Include="Solution\PrintFromTopToBottom.cs" />
     <Compile Include="Solution\VerifySquenceOfBST.cs" />
     <Compile Include="Solution\FindPath.cs" />
+    <Compile Include="Solution\Clone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
