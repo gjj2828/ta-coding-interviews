@@ -54,6 +54,7 @@
     <Compile Include="Solution\VerifySquenceOfBST.cs" />
     <Compile Include="Solution\FindPath.cs" />
     <Compile Include="Solution\Clone.cs" />
+    <Compile Include="Solution\Convert.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

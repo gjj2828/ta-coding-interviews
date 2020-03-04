@@ -38,8 +38,25 @@ namespace VerifySquenceOfBST
         public override bool Run()
         {
             Solution s = new Solution();
+            //     ____5____
+            //    |         |
+            //  __2__     __8__
+            // |     |   |     |
+            // 1     3_  6_    9
+            //         |   |
+            //         4   7
             int[] seq1 = { 1, 4, 3, 2, 7, 6, 9, 8, 5 };
+            //     ____5____
+            //    |         |
+            //  __2         8
+            // |
+            // 1
             int[] seq2 = { 1, 2, 8, 5 };
+            //     ____5____
+            //    |         |
+            //  __8         2
+            // |
+            // 1
             int[] seq3 = { 1, 8, 2, 5 };
             if (s.VerifySquenceOfBST(seq1) == false) return false;
             if (s.VerifySquenceOfBST(seq2) == false) return false;

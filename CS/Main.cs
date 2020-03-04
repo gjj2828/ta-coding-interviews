@@ -29,6 +29,7 @@ class MainClass
         Test<VerifySquenceOfBST.Test>();
         Test<FindPath.Test>();
         Test<Clone.Test>();
+        Test<Convert.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
