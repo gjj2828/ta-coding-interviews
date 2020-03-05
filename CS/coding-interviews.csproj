@@ -55,6 +55,7 @@
     <Compile Include="Solution\FindPath.cs" />
     <Compile Include="Solution\Clone.cs" />
     <Compile Include="Solution\Convert.cs" />
+    <Compile Include="Solution\Permutation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

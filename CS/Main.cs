@@ -30,6 +30,7 @@ class MainClass
         Test<FindPath.Test>();
         Test<Clone.Test>();
         Test<Convert.Test>();
+        Test<Permutation.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

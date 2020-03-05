@@ -18,9 +18,9 @@ abstract class TestBase: ITest
         }
     }
 
-    protected void Print(IEnumerable<int> l)
+    protected void Print<T>(IEnumerable<T> l)
     {
-        foreach(int i in l)
+        foreach(T i in l)
         {
             Console.Write("{0}\t", i);
         }
