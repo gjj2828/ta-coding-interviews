@@ -33,6 +33,7 @@ class MainClass
         Test<Permutation.Test>();
         Test<MoreThanHalfNum_Solution.Test>();
         Test<GetLeastNumbers_Solution.Test>();
+        Test<FindGreatestSumOfSubArray.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
