@@ -56,6 +56,7 @@
     <Compile Include="Solution\Clone.cs" />
     <Compile Include="Solution\Convert.cs" />
     <Compile Include="Solution\Permutation.cs" />
+    <Compile Include="Solution\MoreThanHalfNum_Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

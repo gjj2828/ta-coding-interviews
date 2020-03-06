@@ -31,6 +31,7 @@ class MainClass
         Test<Clone.Test>();
         Test<Convert.Test>();
         Test<Permutation.Test>();
+        Test<MoreThanHalfNum_Solution.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
