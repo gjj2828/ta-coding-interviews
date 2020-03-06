@@ -32,6 +32,7 @@ class MainClass
         Test<Convert.Test>();
         Test<Permutation.Test>();
         Test<MoreThanHalfNum_Solution.Test>();
+        Test<GetLeastNumbers_Solution.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
