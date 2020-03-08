@@ -1,6 +1,8 @@
 #include <iostream>
 #include "TestBase.h"
 
+using namespace std;
+
 void TestBase::Print(vector<vector<int>>& array)
 {
 	int row = array.size();

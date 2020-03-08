@@ -1,28 +1,29 @@
 #include <iostream>
 #include <string>
-#include "Solution.h"
-#include "Test.h"
+#include "Find.h"
+
+using namespace std;
 
 template <class T>
-inline void Test(Solution& solution)
+inline void Test()
 {
-	const char* name = typeid(T).name();
-	const char* name2 = strchr(name, ' ');
-	const char* realName = name2 ? name2 + 1 : name;
-	cout << "Begin " << realName << endl;
-	if (T().Test(solution))
+	string name = typeid(T).name();
+	int pb = name.find(' ');
+	int pe = name.find(':');
+	string taskName = "Test " + name.substr(pb + 1, pe - pb - 1);
+	cout << "**** Begin " << taskName << " ****" << endl;
+	if (T().Run())
 	{
-		cout << realName << " Pass" << endl;
+		cout << taskName << " Pass" << endl;
 	}
 	else
 	{
-		cout << realName << " Fail" << endl;
+		cout << taskName << " Fail" << endl;
 	}
-	cout << "End " << realName << endl;
+	cout << "**** End " << taskName << " ****" << endl;
 }
 
 int main()
 {
-	Solution solution;
-	Test<TestFind>(solution);
+	Test<Find::Tester>();
 }

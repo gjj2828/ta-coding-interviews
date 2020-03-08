@@ -2,10 +2,8 @@
 
 #include <vector>
 
-using namespace std;
-
 class TestBase
 {
 protected:
-	void Print(vector<vector<int>>& array);
+	void Print(std::vector<std::vector<int>>& array);
 };

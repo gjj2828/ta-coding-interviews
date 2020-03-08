@@ -71,7 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(ProjectDir)include\Test;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)include;$(ProjectDir)include\Solution;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -139,16 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Solution\Find.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Solution.cpp" />
-    <ClCompile Include="Test\TestBase.cpp" />
-    <ClCompile Include="Test\TestFind.cpp" />
+    <ClCompile Include="TestBase.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Solution.h" />
-    <ClInclude Include="include\Test\TestBase.h" />
-    <ClInclude Include="include\Test\TestFind.h" />
-    <ClInclude Include="include\Test\Test.h" />
+    <ClInclude Include="include\Solution\Find.h" />
+    <ClInclude Include="include\TestBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
