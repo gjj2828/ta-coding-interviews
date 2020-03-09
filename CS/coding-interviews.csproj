@@ -59,6 +59,7 @@
     <Compile Include="Solution\MoreThanHalfNum_Solution.cs" />
     <Compile Include="Solution\GetLeastNumbers_Solution.cs" />
     <Compile Include="Solution\FindGreatestSumOfSubArray.cs" />
+    <Compile Include="Solution\NumberOf1Between1AndN_Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

@@ -34,6 +34,7 @@ class MainClass
         Test<MoreThanHalfNum_Solution.Test>();
         Test<GetLeastNumbers_Solution.Test>();
         Test<FindGreatestSumOfSubArray.Test>();
+        Test<NumberOf1Between1AndN_Solution.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
