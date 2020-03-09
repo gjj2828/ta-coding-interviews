@@ -150,4 +150,28 @@ abstract class TestBase: ITest
         }
         return true;
     }
+
+    protected int[] ToDigits(int number)
+    {
+        int len = CalcDigitLen(number);
+        if (len <= 0) return null;
+        int[] digits = new int[len];
+        for (int i = 0; i < len; i++)
+        {
+            digits[len - i - 1] = number % 10;
+            number /= 10;
+        }
+        return digits;
+    }
+
+    protected int CalcDigitLen(int number)
+    {
+        int len = 0;
+        while (number > 0)
+        {
+            len++;
+            number /= 10;
+        }
+        return len;
+    }
 }
