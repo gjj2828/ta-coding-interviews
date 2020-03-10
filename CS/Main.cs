@@ -36,6 +36,7 @@ class MainClass
         Test<FindGreatestSumOfSubArray.Test>();
         Test<NumberOf1Between1AndN_Solution.Test>();
         Test<PrintMinNumber.Test>();
+        Test<GetUglyNumber_Solution.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
