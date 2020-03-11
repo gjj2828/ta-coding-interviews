@@ -37,6 +37,7 @@ class MainClass
         Test<NumberOf1Between1AndN_Solution.Test>();
         Test<PrintMinNumber.Test>();
         Test<GetUglyNumber_Solution.Test>();
+        Test<FirstNotRepeatingChar.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

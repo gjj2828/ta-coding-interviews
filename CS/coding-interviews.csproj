@@ -62,6 +62,7 @@
     <Compile Include="Solution\NumberOf1Between1AndN_Solution.cs" />
     <Compile Include="Solution\PrintMinNumber.cs" />
     <Compile Include="Solution\GetUglyNumber_Solution.cs" />
+    <Compile Include="Solution\FirstNotRepeatingChar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
