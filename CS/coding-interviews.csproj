@@ -63,6 +63,7 @@
     <Compile Include="Solution\PrintMinNumber.cs" />
     <Compile Include="Solution\GetUglyNumber_Solution.cs" />
     <Compile Include="Solution\FirstNotRepeatingChar.cs" />
+    <Compile Include="Solution\InversePairs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
