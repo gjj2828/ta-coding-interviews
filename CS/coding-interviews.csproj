@@ -64,6 +64,7 @@
     <Compile Include="Solution\GetUglyNumber_Solution.cs" />
     <Compile Include="Solution\FirstNotRepeatingChar.cs" />
     <Compile Include="Solution\InversePairs.cs" />
+    <Compile Include="Solution\FindFirstCommonNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />

@@ -39,6 +39,7 @@ class MainClass
         Test<GetUglyNumber_Solution.Test>();
         Test<FirstNotRepeatingChar.Test>();
         Test<InversePairs.Test>();
+        Test<FindFirstCommonNode.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()
