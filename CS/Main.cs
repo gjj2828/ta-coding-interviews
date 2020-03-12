@@ -40,6 +40,7 @@ class MainClass
         Test<FirstNotRepeatingChar.Test>();
         Test<InversePairs.Test>();
         Test<FindFirstCommonNode.Test>();
+        Test<GetNumberOfK.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

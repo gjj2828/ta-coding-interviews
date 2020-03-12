@@ -65,6 +65,7 @@
     <Compile Include="Solution\FirstNotRepeatingChar.cs" />
     <Compile Include="Solution\InversePairs.cs" />
     <Compile Include="Solution\FindFirstCommonNode.cs" />
+    <Compile Include="Solution\GetNumberOfK.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
