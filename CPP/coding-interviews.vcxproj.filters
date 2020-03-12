@@ -30,6 +30,9 @@
     <ClCompile Include="TestBase.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="replaceSpace.cpp">
+      <Filter>源文件\Solution</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Solution\Find.h">
@@ -37,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="include\TestBase.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="replaceSpace.h">
+      <Filter>头文件\Solution</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
