@@ -62,8 +62,14 @@ namespace FirstNotRepeatingChar
             for(int i = 0; i < 50; i++)
             {
                 string rndStr = GenRndStr(rnd);
-                if (s.FirstNotRepeatingChar(rndStr) != FirstNotRepeatingChar(rndStr))
+                int pos1 = s.FirstNotRepeatingChar(rndStr);
+                int pos2 = FirstNotRepeatingChar(rndStr);
+                if (pos1 != pos2)
+                {
+                    Print(rndStr);
+                    Console.WriteLine("{0} {1}", pos1, pos2);
                     return false;
+                }
             }
             return true;
         }
@@ -74,7 +80,7 @@ namespace FirstNotRepeatingChar
             int len = rnd.Next(100001);
             for(int i = 0; i < len; i++)
             {
-                int r = rnd.Next(56);
+                int r = rnd.Next(52);
                 char c;
                 if(r < 26)
                 {
@@ -82,7 +88,7 @@ namespace FirstNotRepeatingChar
                 }
                 else
                 {
-                    c = (char)('A' + r);
+                    c = (char)('A' + (r - 26));
                 }
                 sb.Append(c);
             }
