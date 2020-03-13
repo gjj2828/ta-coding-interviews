@@ -6,20 +6,86 @@ namespace GetNumberOfK
 {
     class Solution
     {
+        //public int GetNumberOfK(int[] data, int k)
+        //{
+        //    // write code here
+        //    if (data == null) return 0;
+        //    return GetNumberOfK(data, k, 0, data.Length - 1);
+        //}
+
+        //private int GetNumberOfK(int[] data, int k, int begin, int end)
+        //{
+        //    if (data[begin] > k || data[end] < k) return 0;
+        //    if (data[begin] == k && data[end] == k) return end - begin + 1;
+        //    int mid = (begin + end) / 2;
+        //    return GetNumberOfK(data, k, begin, mid)
+        //        + GetNumberOfK(data, k, mid + 1, end);
+        //}
+
         public int GetNumberOfK(int[] data, int k)
         {
             // write code here
             if (data == null) return 0;
-            return GetNumberOfK(data, k, 0, data.Length - 1);
-        }
+            if (data[0] > k || data[data.Length - 1] < k) return 0;
 
-        private int GetNumberOfK(int[] data, int k, int begin, int end)
-        {
-            if (data[begin] > k || data[end] < k) return 0;
-            if (data[begin] == k && data[end] == k) return end - begin + 1;
-            int mid = (begin + end) / 2;
-            return GetNumberOfK(data, k, begin, mid)
-                + GetNumberOfK(data, k, mid + 1, end);
+            // first
+            int first = -1;
+            if(data[0] == k)
+            {
+                first = 0;
+            }
+            else
+            {
+                int left = 0, right = data.Length - 1;
+                while (true)
+                {
+                    int mid = (left + right) / 2;
+                    if (data[mid] >= k)
+                    {
+                        right = mid;
+                    }
+                    else
+                    {
+                        left = mid + 1;
+                        if (data[left] > k) break;
+                        if (data[left] == k)
+                        {
+                            first = left;
+                            break;
+                        }
+                    }
+                }
+            }
+            if (first < 0) return 0;
+
+            // last
+            int last;
+            if(data[data.Length - 1] == k)
+            {
+                last = data.Length - 1;
+            }
+            else
+            {
+                int left = first, right = data.Length - 1;
+                while (true)
+                {
+                    int mid = (left + right + 1) / 2;
+                    if (data[mid] <= k)
+                    {
+                        left = mid;
+                    }
+                    else
+                    {
+                        right = mid - 1;
+                        if (data[right] == k)
+                        {
+                            last = right;
+                            break;
+                        }
+                    }
+                }
+            }
+            return last - first + 1;
         }
     }
 
