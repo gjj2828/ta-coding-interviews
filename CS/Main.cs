@@ -41,6 +41,7 @@ class MainClass
         Test<InversePairs.Test>();
         Test<FindFirstCommonNode.Test>();
         Test<GetNumberOfK.Test>();
+        Test<TreeDepth.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

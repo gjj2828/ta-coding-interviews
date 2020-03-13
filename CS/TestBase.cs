@@ -59,6 +59,13 @@ abstract class TestBase: ITest
         return IsEqual(n1.left, n2.left) && IsEqual(n1.right, n2.right);
     }
 
+    //     ____1____
+    //    |         |
+    //  __2       __3__
+    // |         |     |
+    // 4_        5    _6
+    //   |           |
+    //   7           8
     protected TreeNode CreateTreeSample()
     {
         int num = 8;

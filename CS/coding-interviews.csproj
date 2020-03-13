@@ -66,6 +66,7 @@
     <Compile Include="Solution\InversePairs.cs" />
     <Compile Include="Solution\FindFirstCommonNode.cs" />
     <Compile Include="Solution\GetNumberOfK.cs" />
+    <Compile Include="Solution\TreeDepth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
