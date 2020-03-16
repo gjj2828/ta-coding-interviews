@@ -89,9 +89,10 @@ namespace reConstructBinaryTree
         {
             Solution s = new Solution();
             TreeNode root = CreateTreeSample();
-            int[] pre = new int[] { 1, 2, 4, 7, 3, 5, 6, 8 };
-            int[] tin = new int[] { 4, 7, 2, 1, 5, 3, 8, 6 };
-            return IsEqual(s.reConstructBinaryTree(pre, tin), root);
+            //int[] pre = new int[] { 1, 2, 4, 7, 3, 5, 6, 8 };
+            //int[] tin = new int[] { 4, 7, 2, 1, 5, 3, 8, 6 };
+            //return IsEqual(s.reConstructBinaryTree(pre, tin), root);
+            return IsEqual(s.reConstructBinaryTree(pts[0][0], pts[0][1]), root);
         }
     }
 }

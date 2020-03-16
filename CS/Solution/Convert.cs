@@ -52,28 +52,29 @@ namespace Convert
         public override bool Run()
         {
             Solution s = new Solution();
-            int[] pre = { 5, 2, 1, 3, 4, 8, 6, 7, 9 };
-            int[] tin = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            TreeNode root = reConstructBinaryTree(pre, tin);
-            TreeNode head = s.Convert(root);
+            //TreeNode[] roots =
+            //{
+            //    //     ____5____
+            //    //    |         |
+            //    //  __2__     __8__
+            //    // |     |   |     |
+            //    // 1     3_  6_    9
+            //    //         |   |
+            //    //         4   7
+            //    reConstructBinaryTree(new int[]{ 5, 2, 1, 3, 4, 8, 6, 7, 9 }
+            //        , new int[]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 })
+            //    //     ____5____
+            //    //    |         |
+            //    //  __2         8
+            //    // |
+            //    // 1
+            //    , reConstructBinaryTree(new int[]{ 5, 2, 1, 8 }
+            //        , new int[]{ 1, 2, 5, 8 })
+            //};
             TreeNode[] roots =
             {
-                //     ____5____
-                //    |         |
-                //  __2__     __8__
-                // |     |   |     |
-                // 1     3_  6_    9
-                //         |   |
-                //         4   7
-                reConstructBinaryTree(new int[]{ 5, 2, 1, 3, 4, 8, 6, 7, 9 }
-                    , new int[]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 })
-                //     ____5____
-                //    |         |
-                //  __2         8
-                // |
-                // 1
-                , reConstructBinaryTree(new int[]{ 5, 2, 1, 8 }
-                    , new int[]{ 1, 2, 5, 8 })
+                  reConstructBinaryTree(pts[1])
+                , reConstructBinaryTree(pts[2])
             };
             int[][] results =
             {

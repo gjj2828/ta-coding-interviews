@@ -201,28 +201,35 @@ namespace FindPath
     {
         public override bool Run()
         {
+            //TreeNode[] roots =
+            //{
+            //    // first
+            //    //     ____9____
+            //    //    |         |
+            //    //  __8__     __7__
+            //    // |     |   |     |
+            //    // 5    _4   6_    2
+            //    //     |       |
+            //    //     1       3
+            //    reConstructBinaryTree(new int[]{ 9, 8, 5, 4, 1, 7, 6, 3, 2 }
+            //        , new int[]{ 5, 8, 1, 4, 9, 6, 3, 7, 2 })
+            //    // second
+            //    //     ____9____
+            //    //    |         |
+            //    //  __8__     __7__
+            //    // |     |   |     |
+            //    // 5    _4   6    _2
+            //    //     |         |
+            //    //     1         3
+            //    , reConstructBinaryTree(new int[]{ 9, 8, 5, 4, 1, 7, 6, 2, 3 }
+            //        , new int[] { 5, 8, 1, 4, 9, 6, 7, 3, 2 })
+            //};
             TreeNode[] roots =
             {
                 // first
-                //     ____9____
-                //    |         |
-                //  __8__     __7__
-                // |     |   |     |
-                // 5    _4   6_    2
-                //     |       |
-                //     1       3
-                reConstructBinaryTree(new int[]{ 9, 8, 5, 4, 1, 7, 6, 3, 2 }
-                    , new int[]{ 5, 8, 1, 4, 9, 6, 3, 7, 2 })
+                reConstructBinaryTree(pts[3])
                 // second
-                //     ____9____
-                //    |         |
-                //  __8__     __7__
-                // |     |   |     |
-                // 5    _4   6    _2
-                //     |         |
-                //     1         3
-                , reConstructBinaryTree(new int[]{ 9, 8, 5, 4, 1, 7, 6, 2, 3 }
-                    , new int[] { 5, 8, 1, 4, 9, 6, 7, 3, 2 })
+                , reConstructBinaryTree(pts[4])
             };
             int expectNumber = 22;
             int[][][] results =

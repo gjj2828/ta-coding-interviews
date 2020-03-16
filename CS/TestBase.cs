@@ -1,8 +1,97 @@
 ﻿using System;
 using System.Collections.Generic;
 
-abstract class TestBase: ITest
+abstract class TestBase : ITest
 {
+    protected int[][][] pts =
+    {
+        // 0
+        //     ____1____
+        //    |         |
+        //  __2       __3__
+        // |         |     |
+        // 4_        5    _6
+        //   |           |
+        //   7           8
+        new int[][]
+        {
+            new int[]{ 1, 2, 4, 7, 3, 5, 6, 8 },
+            new int[]{ 4, 7, 2, 1, 5, 3, 8, 6 }
+        }
+        // 1
+        //     ____5____
+        //    |         |
+        //  __2__     __8__
+        // |     |   |     |
+        // 1     3_  6_    9
+        //         |   |
+        //         4   7
+        , new int[][]
+        {
+            new int[]{ 5, 2, 1, 3, 4, 8, 6, 7, 9 },
+            new int[]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 }
+        }
+        // 2
+        //     ____5____
+        //    |         |
+        //  __2         8
+        // |
+        // 1
+        , new int[][]
+        {
+            new int[]{ 5, 2, 1, 8 },
+            new int[]{ 1, 2, 5, 8 }
+        }
+        // 3
+        //     ____9____
+        //    |         |
+        //  __8__     __7__
+        // |     |   |     |
+        // 5    _4   6_    2
+        //     |       |
+        //     1       3
+        , new int[][]
+        {
+            new int[]{ 9, 8, 5, 4, 1, 7, 6, 3, 2 },
+            new int[]{ 5, 8, 1, 4, 9, 6, 3, 7, 2 }
+        }
+        // 4
+        //     ____9____
+        //    |         |
+        //  __8__     __7__
+        // |     |   |     |
+        // 5    _4   6    _2
+        //     |         |
+        //     1         3
+        , new int[][]
+        {
+            new int[]{ 9, 8, 5, 4, 1, 7, 6, 2, 3 },
+            new int[]{ 5, 8, 1, 4, 9, 6, 7, 3, 2 }
+        }
+        // 5
+        //     ____8____
+        //    |         |
+        //  __6__     __10_
+        // |     |   |     |
+        // 5     7   9     11
+        , new int[][]
+        {
+            new int[]{ 8, 6, 5, 7, 10, 9, 11 },
+            new int[]{ 5, 6, 7, 8, 9, 10, 11 }
+        }
+        // 6
+        //     ____8____
+        //    |         |
+        //  __10_     __6__
+        // |     |   |     |
+        // 11    9   7     5
+        , new int[][]
+        {
+            new int[]{ 8, 10, 11, 9, 6, 7, 5 },
+            new int[]{ 11, 10, 9, 8, 7, 6, 5 }
+        }
+    };
+
     public abstract bool Run();
 
     protected void Print(int[][] array)
@@ -82,6 +171,11 @@ abstract class TestBase: ITest
         nodes[3].right = nodes[6];
         nodes[5].left = nodes[7];
         return nodes[0];
+    }
+
+    protected TreeNode reConstructBinaryTree(int[][] pt)
+    {
+        return reConstructBinaryTree(pt[0], pt[1]);
     }
 
     protected TreeNode reConstructBinaryTree(int[] pre, int[] tin)
