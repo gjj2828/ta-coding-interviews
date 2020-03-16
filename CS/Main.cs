@@ -42,6 +42,7 @@ class MainClass
         Test<FindFirstCommonNode.Test>();
         Test<GetNumberOfK.Test>();
         Test<TreeDepth.Test>();
+        Test<IsBalanced_Solution.Test>();
     }
 
     private static void Test<T>() where T: ITest, new()

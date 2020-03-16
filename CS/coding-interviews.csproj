@@ -67,6 +67,7 @@
     <Compile Include="Solution\FindFirstCommonNode.cs" />
     <Compile Include="Solution\GetNumberOfK.cs" />
     <Compile Include="Solution\TreeDepth.cs" />
+    <Compile Include="Solution\IsBalanced_Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solution\" />
