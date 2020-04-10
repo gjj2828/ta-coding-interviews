@@ -12,7 +12,7 @@ namespace VerifySquenceOfBST
 
         private bool VerifySquenceOfBST(int[] sequence, int start, int len)
         {
-            if (len < 4) return true;
+            if (len < 3) return true;
             int root = sequence[len - 1];
             int i;
             for(i = 0; i < len - 1; i++)
@@ -58,9 +58,11 @@ namespace VerifySquenceOfBST
             // |
             // 1
             int[] seq3 = { 1, 8, 2, 5 };
-            if (s.VerifySquenceOfBST(seq1) == false) return false;
+            int[] seq4 = { 3, 1, 2 };
+            if(s.VerifySquenceOfBST(seq1) == false) return false;
             if (s.VerifySquenceOfBST(seq2) == false) return false;
             if (s.VerifySquenceOfBST(seq3) == true) return false;
+            if(s.VerifySquenceOfBST(seq4) == true) return false;
             return true;
         }
     }
