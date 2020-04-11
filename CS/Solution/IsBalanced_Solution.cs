@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: IsBalanced_Solution.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: IsBalanced_Solution algorithm.
+****************************************************************/
+
+using System;
 
 namespace IsBalanced_Solution
 {

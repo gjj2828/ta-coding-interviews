@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: reConstructBinaryTree.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: reConstructBinaryTree algorithm.
+****************************************************************/
+
+using System;
 
 // 树 重建二叉树
 namespace reConstructBinaryTree

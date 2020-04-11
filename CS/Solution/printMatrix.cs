@@ -1,4 +1,12 @@
-﻿using System.Collections.Generic;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: printMatrix.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: printMatrix algorithm.
+****************************************************************/
+
+using System.Collections.Generic;
 
 // 数组 顺时针打印矩阵
 namespace printMatrix

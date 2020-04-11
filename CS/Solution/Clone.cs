@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Clone.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Clone algorithm.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 
 // 链表 复杂链表的复制

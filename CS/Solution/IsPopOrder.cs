@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: IsPopOrder.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: IsPopOrder algorithm.
+****************************************************************/
+
+using System;
 using System.Collections;
 
 // 栈 栈的压入、弹出序列

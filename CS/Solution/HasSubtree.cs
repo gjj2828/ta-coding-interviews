@@ -1,4 +1,12 @@
-﻿// 二叉树 树的子结构
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: HasSubtree.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: HasSubtree algorithm.
+****************************************************************/
+
+// 二叉树 树的子结构
 namespace HasSubtree
 {
     /*

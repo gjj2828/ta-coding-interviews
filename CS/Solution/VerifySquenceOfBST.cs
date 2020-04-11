@@ -1,4 +1,12 @@
-﻿// 栈 树 二叉搜索树的后序遍历序列
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: VerifySquenceOfBST.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: VerifySquenceOfBST algorithm.
+****************************************************************/
+
+// 栈 树 二叉搜索树的后序遍历序列
 namespace VerifySquenceOfBST
 {
     class Solution

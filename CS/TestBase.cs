@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: TestBase.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: The base class of Test.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 
 abstract class TestBase : ITest

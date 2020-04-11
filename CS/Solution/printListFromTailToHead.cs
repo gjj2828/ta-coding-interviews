@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: printListFromTailToHead.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: printListFromTailToHead algorithm.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 
 // 链表 从尾到头打印链表

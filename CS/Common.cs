@@ -1,4 +1,12 @@
-﻿public class ListNode
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Common.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Common class.
+****************************************************************/
+
+public class ListNode
 {
     public int val;
     public ListNode next;

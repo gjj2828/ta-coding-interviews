@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: minNumberInRotateArray.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: minNumberInRotateArray algorithm.
+****************************************************************/
+
+using System;
 
 // 查找 旋转数组的最小数字
 namespace minNumberInRotateArray

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: rectCover.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: rectCover algorithm.
+****************************************************************/
+
+using System;
 
 // 递归 矩形覆盖
 namespace rectCover

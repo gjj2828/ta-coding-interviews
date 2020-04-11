@@ -1,4 +1,12 @@
-﻿// 链表 合并两个排序的链表
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Merge.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Merge algorithm.
+****************************************************************/
+
+// 链表 合并两个排序的链表
 namespace Merge
 {
     /*

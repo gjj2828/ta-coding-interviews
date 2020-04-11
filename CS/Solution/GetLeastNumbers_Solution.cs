@@ -1,4 +1,12 @@
-﻿using System.Collections.Generic;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: GetLeastNumbers_Solution.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: GetLeastNumbers_Solution algorithm.
+****************************************************************/
+
+using System.Collections.Generic;
 
 // 数组 高级算法 最小的K个数
 namespace GetLeastNumbers_Solution

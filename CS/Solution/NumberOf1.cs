@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: NumberOf1.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: NumberOf1 algorithm.
+****************************************************************/
+
+using System;
 
 // 进制转化 补码反码原码 二进制中1的个数
 namespace NumberOf1

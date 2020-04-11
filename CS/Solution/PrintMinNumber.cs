@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: PrintMinNumber.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: PrintMinNumber algorithm.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 

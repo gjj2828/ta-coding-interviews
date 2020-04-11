@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Find.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Find algorithm.
+****************************************************************/
+
+using System;
 
 // 查找 数组 二维数组中的查找
 namespace Find

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: push_pop.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: push_pop algorithm.
+****************************************************************/
+
+using System;
 using System.Collections;
 
 // 队列 栈 用两个栈实现队列

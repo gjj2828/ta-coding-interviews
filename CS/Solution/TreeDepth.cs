@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: TreeDepth.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: TreeDepth algorithm.
+****************************************************************/
+
+using System;
 
 // 树 二叉树的深度
 namespace TreeDepth

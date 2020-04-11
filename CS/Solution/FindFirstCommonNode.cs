@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: FindFirstCommonNode.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: FindFirstCommonNode algorithm.
+****************************************************************/
+
+using System;
 
 // 链表 两个链表的第一个公共结点
 namespace FindFirstCommonNode

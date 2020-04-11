@@ -1,4 +1,12 @@
-﻿// 数组 数组中出现次数超过一半的数字
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: MoreThanHalfNum_Solution.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: MoreThanHalfNum_Solution algorithm.
+****************************************************************/
+
+// 数组 数组中出现次数超过一半的数字
 namespace MoreThanHalfNum_Solution
 {
     class Solution

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: FirstNotRepeatingChar.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: FirstNotRepeatingChar algorithm.
+****************************************************************/
+
+using System;
 using System.Text;
 
 // 字符串 第一个只出现一次的字符

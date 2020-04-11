@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: NumberOf1Between1AndN_Solution.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: NumberOf1Between1AndN_Solution algorithm.
+****************************************************************/
+
+using System;
 
 // 查找 数学 整数中1出现的次数（从1到n整数中1出现的次数）
 namespace NumberOf1Between1AndN_Solution

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: jumpFloorII.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: jumpFloorII algorithm.
+****************************************************************/
+
+using System;
 
 // 贪心 变态跳台阶
 namespace jumpFloorII

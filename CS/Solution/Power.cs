@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Power.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Power algorithm.
+****************************************************************/
+
+using System;
 
 // 数学 数值的整数次方
 namespace Power

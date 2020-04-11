@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: InversePairs.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: InversePairs algorithm.
+****************************************************************/
+
+using System;
 
 // 数组 数组中的逆序对
 namespace InversePairs

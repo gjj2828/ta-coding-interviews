@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: FindGreatestSumOfSubArray.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: FindGreatestSumOfSubArray algorithm.
+****************************************************************/
+
+using System;
 
 // 数组 连续子数组的最大和
 namespace FindGreatestSumOfSubArray

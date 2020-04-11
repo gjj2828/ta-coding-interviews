@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: FindKthToTail.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: FindKthToTail algorithm.
+****************************************************************/
+
+using System;
 
 // 链表 链表中倒数第k个结点
 namespace FindKthToTail

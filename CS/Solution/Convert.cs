@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Convert.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Convert algorithm.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 
 // 链表 树 二叉搜索树与双向链表

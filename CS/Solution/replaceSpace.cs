@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: replaceSpace.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: replaceSpace algorithm.
+****************************************************************/
+
+using System;
 using System.Text;
 
 // 字符串 替换空格

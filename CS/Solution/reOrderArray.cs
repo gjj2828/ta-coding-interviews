@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: reOrderArray.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: reOrderArray algorithm.
+****************************************************************/
+
+using System;
 
 // 数组 调整数组顺序使奇数位于偶数前面
 namespace reOrderArray

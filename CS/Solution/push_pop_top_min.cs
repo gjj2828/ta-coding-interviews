@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: push_pop_top_min.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: push_pop_top_min algorithm.
+****************************************************************/
+
+using System;
 using System.Collections;
 
 // 栈 包含min函数的栈

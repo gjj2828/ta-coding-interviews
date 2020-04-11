@@ -1,4 +1,12 @@
-﻿// 树 二叉树的镜像
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Mirror.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Mirror algorithm.
+****************************************************************/
+
+// 树 二叉树的镜像
 namespace Mirror
 {
     /*

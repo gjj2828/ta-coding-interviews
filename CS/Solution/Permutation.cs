@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: Permutation.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Permutation algorithm.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 
 // 字符串 动态规划 递归 字符串的排列

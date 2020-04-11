@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: FindPath.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: FindPath algorithm.
+****************************************************************/
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 

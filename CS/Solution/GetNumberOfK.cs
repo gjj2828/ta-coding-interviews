@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: GetNumberOfK.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: GetNumberOfK algorithm.
+****************************************************************/
+
+using System;
 using System.Collections.Generic;
 
 // 数组 数字在排序数组中出现的次数

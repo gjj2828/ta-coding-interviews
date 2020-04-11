@@ -1,4 +1,12 @@
-﻿using System;
+﻿/****************************************************************
+ * Project: coding-interviews
+ * File: ReverseList.cs
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: ReverseList algorithm.
+****************************************************************/
+
+using System;
 
 // 链表 反转链表
 namespace ReverseList
