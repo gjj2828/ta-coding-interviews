@@ -1,3 +1,11 @@
+/****************************************************************
+ * Project: coding-interviews
+ * File: main.cpp
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Main entry.
+****************************************************************/
+
 #include <iostream>
 #include <string>
 #include "Find.h"

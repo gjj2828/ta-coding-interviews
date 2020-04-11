@@ -1,6 +1,14 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+/****************************************************************
+ * Project: coding-interviews
+ * File: Find.cpp
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: Find algorithm.
+****************************************************************/
+
 #include "Find.h"
 #include "TestBase.h"
 

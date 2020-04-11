@@ -1,3 +1,11 @@
+/****************************************************************
+ * Project: coding-interviews
+ * File: TestBase.cpp
+ * Create Date: 2020/02/01
+ * Author: Gao Jiongjiong
+ * Descript: The base class of Test.
+****************************************************************/
+
 #include <iostream>
 #include "TestBase.h"
 
